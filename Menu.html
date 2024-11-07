@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Menu</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Our Menu</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section id="menu">
+    <h2>Dishes</h2>
+    <div class="menu-item" onclick="showDetails('Pizza - $12', 'Delicious cheese pizza with fresh toppings.')">
+      <img src="images.jpeg">
+      <h3 >Pizza</h3>
+      <p>Rs 200</p>
+    </div>
+    <div class="menu-item" onclick="showDetails('Burger - $10', 'Juicy beef burger with fresh lettuce and tomatoes.')">
+        <img src="images (1).jpeg">
+      <h3>Burger</h3>
+      <p>Rs 100</p>
+    </div>
+    <div class="menu-item" onclick="showDetails('Pasta - $15', 'Creamy pasta with mushrooms and garlic sauce.')">
+        <img src="red-sauce-pasta-1.jpg" height="200px" width="250px">
+      <h3>Pasta</h3>
+      <p>Rs 150</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Our Restaurant</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
